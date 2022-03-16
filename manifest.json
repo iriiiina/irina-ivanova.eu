@@ -1,0 +1,8 @@
+{
+    "name": "Irina Ivanova",
+    "short_name": "Irina Ivanova",
+    "start_url": "index.html",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "display": "standalone"
+  }
