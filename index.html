@@ -69,12 +69,6 @@
             color: rgba(41, 128, 185, 1.0);
         }
 
-        #blog h2 {
-            font-family: 'Amatic SC', cursive;
-            color: orange;
-            font-size: 36px;
-        }
-
         .devider {
             background-color: rgba(0, 0, 0, 0.2);
             width: 90%;
@@ -102,21 +96,15 @@
 
 <body>
     <main>
-        <section id="blog">
-            <h2>Персональный&nbsp;Блог&nbsp;🌿</h2>
-            <a href="https://blog.irina-ivanova.eu" title="Irina Ivanova Personal Blog"
-                hreflang="ru">blog.irina-ivanova.eu</a>
-        </section>
-        <section class="devider"></section>
-        <section id="it">
-            <h2>IT&nbsp;Portfolio&nbsp;(◠_◠)</h2>
+        <section id="it" itemscope itemtype="https://schema.org/WebPage">
+            <h2 itemprop="name">IT&nbsp;Portfolio&nbsp;(◠_◠)</h2>
             <a href="https://it.irina-ivanova.eu" title="Irina Ivanova IT Portfolio"
-                hreflang="en">it.irina-ivanova.eu</a>
+                hreflang="en" itemprop="url">it.irina-ivanova.eu</a>
         </section>
         <section class="devider"></section>
-        <section id="vimo">
-            <h2>Vimo &mdash; IT as a Service</h2>
-            <a href="https://vimo.ee/" title="Vimo - IT as a Service" hreflang="en">vimo.ee</a>
+        <section id="vimo" itemscope itemtype="https://schema.org/WebPage">
+            <h2 itemprop="name">Vimo &mdash; IT as a Service</h2>
+            <a href="https://vimo.ee/" title="Vimo - IT as a Service" hreflang="en" itemprop="url">vimo.ee</a>
         </section>
     </main>
 </body>
